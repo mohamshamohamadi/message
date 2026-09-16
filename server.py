@@ -5,7 +5,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # فایل ذخیره پیام‌ها
-FILE_PATH = "messages.txt"
+FILE_PATH = "/data/messages.txt"
 
 @app.route("/")
 def index():
